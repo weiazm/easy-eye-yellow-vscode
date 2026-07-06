@@ -2,7 +2,7 @@
   "name": "easy-eye-yellow",
   "displayName": "Easy Eye Yellow",
   "description": "A VS Code color theme inspired by IntelliJ IDEA's archived EasyEyesYellow scheme.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "codex-local",
   "license": "UNLICENSED",
   "engines": {

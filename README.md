@@ -35,11 +35,11 @@ on a dim yellow editor background:
 | Role | Color |
 | --- | --- |
 | Window shell | `#202020` / `#292929` |
-| Editor background | `#2B2818` |
-| Current line | `#33301F` |
-| Selection background | `#5B5230` |
-| Foreground | `#FFF5C7` |
-| Yellow accent | `#E2C85B` |
+| Editor background | `#242116` |
+| Current line | `#2C291A` |
+| Selection background | `#4A4226` |
+| Foreground | `#E3D38A` |
+| Yellow accent | `#B99B32` |
 
 ## Alignment Notes
 
@@ -59,7 +59,7 @@ From this directory:
 
 ```sh
 npm run package
-code --install-extension easy-eye-yellow-0.0.2.vsix
+code --install-extension easy-eye-yellow-0.0.3.vsix
 ```
 
 Then choose `Easy Eye Yellow` or `Easy Eye Yellow Dark` from VS Code's color
