@@ -2,7 +2,7 @@
   "name": "easy-eye-yellow",
   "displayName": "Easy Eye Yellow",
   "description": "A VS Code color theme inspired by IntelliJ IDEA's archived EasyEyesYellow scheme.",
-  "version": "0.0.3",
+  "version": "0.0.7",
   "publisher": "codex-local",
   "license": "UNLICENSED",
   "engines": {
@@ -17,18 +17,12 @@
         "label": "Easy Eye Yellow",
         "uiTheme": "vs",
         "path": "./themes/easy-eye-yellow-color-theme.json"
-      },
-      {
-        "label": "Easy Eye Yellow Dark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/easy-eye-yellow-dark-color-theme.json"
       }
     ]
   },
   "files": [
     "LICENSE",
     "README.md",
-    "themes/easy-eye-yellow-dark-color-theme.json",
     "themes/easy-eye-yellow-color-theme.json"
   ],
   "scripts": {
