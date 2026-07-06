@@ -5,6 +5,10 @@
   "version": "0.0.7",
   "publisher": "codex-local",
   "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/weiazm/easy-eye-yellow-vscode.git"
+  },
   "engines": {
     "vscode": "^1.88.0"
   },
@@ -21,6 +25,7 @@
     ]
   },
   "files": [
+    "assets",
     "LICENSE",
     "README.md",
     "themes/easy-eye-yellow-color-theme.json"
