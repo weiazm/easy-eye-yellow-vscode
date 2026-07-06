@@ -1,7 +1,10 @@
 # Easy Eye Yellow for VS Code
 
 A local VS Code theme extension based on IntelliJ IDEA's archived
-`EasyEyesYellow` color scheme.
+`EasyEyesYellow` color scheme. It includes:
+
+- `Easy Eye Yellow`: the original light yellow port.
+- `Easy Eye Yellow Dark`: a gray-window dark variant with a muted yellow editor.
 
 The original scheme came from the old Color Themes archive:
 
@@ -10,7 +13,7 @@ The original scheme came from the old Color Themes archive:
 
 ## Palette
 
-The theme keeps the original editor colors as closely as VS Code allows:
+The light theme keeps the original editor colors as closely as VS Code allows:
 
 | IntelliJ role | Color |
 | --- | --- |
@@ -25,6 +28,18 @@ The theme keeps the original editor colors as closely as VS Code allows:
 | Block/doc comments | `#008040` |
 | Classes | `#800000` |
 | Interfaces/enums | `#18AADE` |
+
+The dark variant keeps the same role relationships but remaps them for contrast
+on a dim yellow editor background:
+
+| Role | Color |
+| --- | --- |
+| Window shell | `#202020` / `#292929` |
+| Editor background | `#2B2818` |
+| Current line | `#33301F` |
+| Selection background | `#5B5230` |
+| Foreground | `#FFF5C7` |
+| Yellow accent | `#E2C85B` |
 
 ## Alignment Notes
 
@@ -44,7 +59,8 @@ From this directory:
 
 ```sh
 npm run package
-code --install-extension easy-eye-yellow-0.0.1.vsix
+code --install-extension easy-eye-yellow-0.0.2.vsix
 ```
 
-Then choose `Easy Eye Yellow` from VS Code's color theme picker.
+Then choose `Easy Eye Yellow` or `Easy Eye Yellow Dark` from VS Code's color
+theme picker.
